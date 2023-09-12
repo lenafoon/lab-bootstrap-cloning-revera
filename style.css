@@ -1,0 +1,75 @@
+body{
+    /* background-color: brown; */
+}
+.carousel-control-next, .carousel-control-prev{width:3%;  opacity: 1;}
+.carousel-control-prev-icon,.carousel-control-next-icon {
+ 
+    background-color: #ed564b;
+    height: 80px;
+    width: 40px;
+}
+.navbar .navbar-brand {
+    display: block;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 35px; /* Adjust the font size as needed */
+    color: #333; /* Adjust the color as needed */
+    margin: 0 auto; /* Center horizontally */
+    padding: 20px 0; /* Add vertical padding for centering vertically */
+    text-decoration: none; /* Remove the default underline */
+  }
+
+
+.web{
+    text-align: center;
+    background-color: #ed564b;
+}
+
+
+.slider img {
+    filter: grayscale(100%);
+  }
+
+
+#underCarousel {
+    color: white;
+   
+}
+
+.icon-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .icon-circle {
+    font-size: 40px; /* Adjust the icon size as needed */
+    color: white; /* Adjust the icon color as needed */
+    border-radius: 50%;
+    border: 4px solid white; /* Increase border thickness */
+    width: 60px; /* Adjust the width and height to your desired circle size */
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px; /* Add spacing between the icon and the text */
+  }
+  
+  #bottom {
+    background-color: #333;
+    color: white;
+    
+  }
+
+  .copyright {
+    background-color: #222; /* Darker background color */
+    color: #fff; /* Text color */
+    text-align: center; /* Center-align the text */
+    padding: 10px 0; /* Adjust padding as needed */
+  }
+  
+  .copyright p {
+    font-size: 14px; /* Copyright text font size */
+    margin: 0; /* Remove default margin */
+  }
